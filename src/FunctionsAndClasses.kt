@@ -1,12 +1,15 @@
 package com.example.tutorialseu_arraylists
 
 fun main(){
-    //Call the function
-    makeCoffee(0, "Eduardo")
-    makeCoffee(1, "Lucelia")
-    makeCoffee(2, "Jimmy")
-    makeCoffee(30, "Lucinda")
+    //check who the coffee is for manually
+    println("Who is this coffee for?")
+    val name = readln()
+    println("How many pieces of sugar do you want?")
+    val sugarCount = readln()
+    val sugarCountInt = sugarCount.toInt()
 
+    //Call the function
+    makeCoffee(sugarCountInt, name)
 }
 
 //Define Function
