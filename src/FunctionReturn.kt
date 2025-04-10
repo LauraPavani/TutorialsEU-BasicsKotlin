@@ -1,6 +1,6 @@
 package com.example.tutorialseu_arraylists
 
-/* fun main (){
+/*fun main (){
 
     val myResult = add(5, 10)
     println("$myResult")
