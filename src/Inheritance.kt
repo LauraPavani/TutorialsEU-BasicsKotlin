@@ -7,4 +7,7 @@ fun main (){
 
     val obj2 = SecondaryClassInheritance()
     obj2.role()
+
+    val obj3 = TertiaryClassInheritance()
+    obj3.role()
 }
