@@ -7,6 +7,6 @@ open class BaseClassInheritance {
 
     }
     fun coreValues(){
-        println("Core values of house BaseClass")
+        println("Core values of House BaseClass")
     }
 }
