@@ -6,5 +6,5 @@ fun main (){
     obj1.coreValues()
 
     val obj2 = SecondaryClassInheritance()
-    obj2.coreValues()
+    obj2.role()
 }
